@@ -1,0 +1,16 @@
+.sectionLine {
+  width: 100%;
+}
+
+.name {
+  margin: 0;
+  color:#161616;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.78px;
+  margin-bottom: 16px;
+}
+
+.line {
+  border-bottom: 1px solid#DADADA;
+}

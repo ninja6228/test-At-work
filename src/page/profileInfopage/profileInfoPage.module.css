@@ -1,0 +1,231 @@
+.infoPage {
+  margin: 0 140px 40px 140px;
+}
+
+.sections {
+  display: flex;
+  gap: 40px;
+  justify-content: center
+}
+
+.inputSection {
+  box-sizing: border-box;
+  display: flex;
+  width: 760px;
+  flex-direction: column; 
+  align-items: flex-start;
+  background-color:#FDFDFD;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.inputBlock {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.title {
+  margin: 0;
+  color: #161616;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 42px;
+  border-radius: 50px;
+  border: 2px solid #DADADA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  padding: 10px 8px 10px 16px;
+  color: #595959;
+  width: 100%;
+}
+
+.button {
+  margin-top: 8px;
+  cursor: pointer;
+  border:none;
+  padding: 12px 42px;
+  border-radius: 50px;
+  background-color: #161616;
+  width: 170px;
+  height: 46px;
+  color: #FDFDFD;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.button:hover {
+  background-color:#F4F4F4;
+  color:#595959
+}
+
+.navSection {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color:#FDFDFD;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+
+.img {
+  width: 280px;
+  height: 485px;
+  border-radius: 8px;
+  background-image: url('../../img/photoProfile.avif') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navMenu {
+  width: 280px;
+  height: 208px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navigate {
+  font-size: 16px;
+  line-height: 21.86px;
+  color:#9C9C9C;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.line {
+  margin: 0;
+  border-bottom: 1px solid #DADADA;
+  margin-top: 12px;
+}
+
+.navigate_active {
+  color:#161616
+}
+
+.navigate_deactive:hover {
+  color:#22A0BC
+}
+
+.link {
+  position: relative;
+  top:0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  color:#595959;
+  justify-content: flex-start;
+  transition: 0.5s;
+  margin: 20.5px 0 44.5px 0;
+}
+
+.linkText {
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  color:#595959;
+}
+
+.link:hover {
+  color: #000;
+}
+
+.linkImg {
+  width: 21px;
+  height: 21px;
+}
+
+.spiner {
+  margin: 150px 50%;
+}
+
+
+
+@media screen and (max-width: 1040px) {
+  .infoPage {
+    margin: 0 16px 40px 16px;
+  }
+  .link {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .title {
+    font-size: 16px;
+    line-height: 21.86px;
+  }
+
+  .inputSection {
+    padding: 28px;
+    width: 343px;
+  }
+
+  .input {
+    width: 282px;
+    font-size: 14px;
+    line-height: 19.12px;
+  }
+  .inputBlock {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .sections {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .navSection {
+    padding: 28px 28px 8px 28px;
+    gap: 24px;
+  }
+  .img {
+    width: 287px;
+    height: 187px;
+  }
+  .navMenu {
+    gap: 20px;
+  }
+  .navigate {
+    font-size: 14px;
+  }
+  .line {
+    margin-top: 8px;
+  }
+  .form {
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .button {
+    margin-top: 4px;
+    width: 100%;
+    font-size: 14px;
+  }
+}

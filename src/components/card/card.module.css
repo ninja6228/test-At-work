@@ -1,0 +1,162 @@
+.card {
+  box-sizing: border-box;
+  width: 360px;
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  border-radius: 16px;
+  background-color:#FDFDFD;
+}
+
+.card_archive {
+  filter: grayscale(100%);
+}
+
+.img {
+  box-sizing: border-box;
+  width: 112px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  width: 180px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: url('../../img/icon/buttonBlack.svg') 50% 50% no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button:hover {
+  background: url('../../img/icon/buttonBlue.svg') 50% 50% no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.name {
+  margin: 0;
+  color:#22A0BC;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.blockName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  margin: 4px 0 0 0;
+  color: #595959;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.city {
+  margin: 0;
+  font-size: 14px;
+  line-height: 19.12px;
+  font-weight: 500;
+  color: #9C9C9C;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popupMenu {
+  width: 200px;
+  border-radius: 8px;
+  position: absolute;
+  background-color:#FDFDFD;
+  box-shadow: 1px 1px 7px -2px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popupMenu_active {
+  transform: translateX(-10px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.block {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+@media screen and (max-width: 1040px) {
+  .card {
+    width: 162px;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .img {
+    width: 130px;
+  }
+
+  .info {
+    width: 130px;
+    height: 74px;
+    gap: 12px;
+  }
+
+  .button {
+    width: 22px;
+    height: 16px;
+  }
+
+  .button:hover {
+    width: 22px;
+    height: 16px;
+  }
+
+  .name {
+    font-size: 18px;
+    line-height: 24.59px;
+    max-width: 100px;
+  }
+
+  .company {
+    font-size: 14px;
+  }
+
+  .city {
+    font-size: 10px;
+    line-height: 13.66px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .popupMenu {
+    width: 160px;
+  }
+}

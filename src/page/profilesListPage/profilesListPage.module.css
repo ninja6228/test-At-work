@@ -1,0 +1,9 @@
+.ProfilesListPage {
+  margin: 40px 140px;
+}
+
+@media screen and (max-width: 850px) {
+  .ProfilesListPage {
+    margin: 32px 16px;
+  }
+}
