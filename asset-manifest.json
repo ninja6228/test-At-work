@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b5dbbe91.css",
+    "main.js": "./static/js/main.b0ca782c.js",
+    "static/media/photoProfile.avif": "./static/media/photoProfile.8f663740c4e918f61f56.avif",
+    "static/media/logoCompany.svg": "./static/media/logoCompany.861f33d6692bb25cf0b9f00e5bac5852.svg",
+    "static/media/bell.svg": "./static/media/bell.c0dbd9960d10df0a45f29c9bb1289330.svg",
+    "static/media/done.svg": "./static/media/done.bc1b370b984cde847f8e0f26bb649f75.svg",
+    "static/media/heart.svg": "./static/media/heart.c47481577c68c3e471718699175474c6.svg",
+    "static/media/cross.svg": "./static/media/cross.486d0c23be5b495ad822.svg",
+    "static/media/buttonBlack.svg": "./static/media/buttonBlack.f19e116c80c89b5ab5a6.svg",
+    "static/media/buttonBlue.svg": "./static/media/buttonBlue.a1d92a0aded6febf6478.svg",
+    "index.html": "./index.html",
+    "static/media/arrow-left.svg": "./static/media/arrow-left.1e9bce41976234eeacc180f2cdd4df32.svg",
+    "main.b5dbbe91.css.map": "./static/css/main.b5dbbe91.css.map",
+    "main.b0ca782c.js.map": "./static/js/main.b0ca782c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5dbbe91.css",
+    "static/js/main.b0ca782c.js"
+  ]
+}
